@@ -2,7 +2,7 @@
 
 **NekoBootstrap** is a responsive, front-end web application developed for a themed cat café concept. Built using HTML5, CSS3, JavaScript, and Bootstrap, this project serves as a structured static implementation showcasing modern layout design, interactive components, and user flows.
 
- **Live Demo:** [Check it out on GitHub Pages](https://linaarmy40.github.io/neko-bootstrap/) *(update the link if your repository has a different name)*
+ **Live Demo:** [Check it out on GitHub Pages](🌐 **Live Demo:** [Check it out on GitHub Pages](https://sarareis50.github.io/neko-bootstrap/)) *(update the link if your repository has a different name)*
 
 ---
 
