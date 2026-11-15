@@ -1,0 +1,231 @@
+/* Paleta de Cores Aconchegante */
+:root {
+    --neko-café-escuro: #4E342E;
+    --neko-café-claro: #A1887F;
+    --neko-creme: #FDF7F2;
+    --neko-rosa-cute: #d8c8a4;
+    --neko-branco: #FFFFFF;
+}
+
+/* Tipografia (ajuste para ficar mais suave) */
+body {
+    background-color: var(--neko-creme);
+    color: var(--neko-café-escuro);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Cabeçalho (Navbar) com efeito suave */
+.navbar {
+    background-color: var(--neko-café-escuro) !important;
+    border-bottom: 4px solid var(--neko-rosa-cute);
+    transition: all 0.4s ease;
+}
+
+.nav-link {
+    color: var(--neko-branco) !important;
+    font-weight: 500;
+    padding: 10px 20px !important;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+/* Hover nos links */
+.nav-link:hover {
+    background-color: var(--neko-rosa-cute);
+    color: var(--neko-café-escuro) !important;
+    transform: translateY(-2px);
+}
+
+/* Rodapé Lindo e Cute */
+footer {
+    background-color: var(--neko-café-escuro);
+    color: var(--neko-creme);
+    padding: 40px 0;
+    margin-top: 50px;
+    border-top: 5px solid var(--neko-rosa-cute);
+    text-align: center;
+}
+
+.footer-text {
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.card {
+    border-radius: 25px !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05); /* O card cresce um pouco */
+    box-shadow: 0 15px 30px rgba(78, 52, 46, 0.2);
+}
+
+/* Hero Section (Introdução) */
+.hero-section {
+    background: linear-gradient(135deg, var(--neko-café-escuro), var(--neko-café-claro));
+    color: var(--neko-creme);
+    padding: 100px 0 !important;
+    margin-bottom: 50px;
+}
+
+.hero-section h1 {
+    color: var(--neko-rosa-cute);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.btn-primary {
+    background-color: var(--neko-rosa-cute) !important;
+    border: none !important;
+    color: var(--neko-café-escuro) !important;
+    font-weight: bold;
+    border-radius: 50px !important;
+    transition: transform 0.3s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.1);
+    background-color: #ff9fb3 !important;
+}
+
+.btn-outline-light {
+    border: 2px solid var(--neko-rosa-cute) !important;
+    color: var(--neko-rosa-cute) !important;
+    border-radius: 50px !important;
+}
+
+.hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=1000') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 60px 0;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+.card-custom {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+        .btn-coffee {
+            background-color: #6f4e37;
+            color: white;
+            border: none;
+        }
+
+        .btn-coffee:hover {
+            background-color: #5a3d2a;
+            color: white;
+        }
+/*Contactos*/
+body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .card-custom {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+        .icon-box {
+            background-color: #f5ebe6;
+            color: #6f4e37;
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+        .btn-coffee {
+            background-color: #6f4e37;
+            color: white;
+            border: none;
+        }
+        .btn-coffee:hover {
+            background-color: #5a3d2a;
+            color: white;
+        }
+
+/* --- Estilos para o Menu --- */
+
+/* Estilização das Tabs */
+.nav-tabs .nav-link {
+    color: var(--neko-café-escuro);
+    border: 2px solid var(--neko-café-escuro);
+    border-radius: 20px 20px 0 0;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: var(--neko-café-escuro) !important;
+    color: var(--neko-creme) !important;
+    border-color: var(--neko-café-escuro);
+}
+
+/* Estilização da Tabela Responsiva */
+.table {
+    background-color: var(--neko-branco);
+    border-radius: 15px;
+    overflow: hidden; /* Garante que os cantos arredondados apareçam */
+}
+
+.table thead {
+    background-color: var(--neko-café-escuro);
+    color: var(--neko-creme);
+}
+
+/* Espaçamento extra para os cards no menu */
+.tab-pane {
+    padding-top: 20px;
+}
+
+
+.menu-header-bg {
+    /* Gradiente escuro para garantir leitura, sobre a imagem */
+    background: linear-gradient(rgba(78, 52, 46, 0.7), rgba(78, 52, 46, 0.7)), 
+                url('../assets/imagens/menu.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0 0 25px 25px; /* Cantos arredondados apenas em baixo */
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ajuste fino para os botões das tabs ficarem visíveis sobre o fundo */
+.menu-header-bg .nav-link {
+    background-color: var(--neko-creme);
+    border: none;
+    margin: 0 10px;
+    border-radius: 50px;
+    padding: 10px 25px;
+    color: var(--neko-café-escuro);
+}
+
+.menu-header-bg .nav-link.active {
+    background-color: var(--neko-rosa-cute);
+    color: white;
+}
+
+/* Menu */
+.hero-section {
+    /* Ajuste o caminho da imagem se necessário (ex: 'assets/Home.avif') */
+    background-image: linear-gradient(rgba(78, 52, 46, 0.5), rgba(78, 52, 46, 0.5)), 
+                      url('../assets/imagens/Home.avif'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh; /* Ocupa 60% da altura do ecrã */
+    width: 100%;
+}
+
+/* Opcional: Adicionar sombra ao texto para melhorar a legibilidade sobre a imagem */
+.hero-section h1, .hero-section p {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
